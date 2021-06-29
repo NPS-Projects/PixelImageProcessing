@@ -29,7 +29,7 @@ def getImagePixelRGB(image):
             colour_key_f, colour_rgb_f = find_nearest_dist(r, g, b)
             nr, ng, nb = colour_rgb_f
             image.putpixel((x, y), (nr, ng, nb))
-            inner_list.append(str(x) + " " + colour_key_f)
+            inner_list.append(str(x+1) + " " + colour_key_f)
         code_list.append(inner_list)
         print(image.height-y, inner_list)
 
