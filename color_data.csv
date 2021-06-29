@@ -1,17 +1,17 @@
-ColorName,ColorRGBCode
-White,"(249, 255, 255)"
-Light Gray,"(156, 157, 151)"
-Gray,"(71, 79, 82)"
-Black,"(29, 28, 33)"
-Yellow,"(255, 216, 61)"
-Orange,"(249, 128, 29)"
-Red,"(176, 46, 38)"
-Brown,"(130, 84, 50)"
-Lime,"(128, 199, 31)"
-Green,"(93, 124, 21)"
-Light Blue,"(58, 179, 218)"
-Cyan,"(22, 156, 157)"
-Blue,"(60, 68, 169)"
-Pink,"(243, 140, 170)"
-Magenta,"(198, 79, 189)"
-Purple,"(137, 50, 183)"
+ColorName,ColorRGBCode,material
+White,"(249, 255, 255)",wool
+Light Gray,"(156, 157, 151)",wool
+Gray,"(71, 79, 82)",wool
+Black,"(29, 28, 33)",wool
+Yellow,"(255, 216, 61)",wool
+Orange,"(249, 128, 29)",wool
+Red,"(176, 46, 38)",wool
+Brown,"(130, 84, 50)",wool
+Lime,"(128, 199, 31)",wool
+Green,"(93, 124, 21)",wool
+Light Blue,"(58, 179, 218)",wool
+Cyan,"(22, 156, 157)",wool
+Blue,"(60, 68, 169)",wool
+Pink,"(243, 140, 170)",wool
+Magenta,"(198, 79, 189)",wool
+Purple,"(137, 50, 183)",wool
