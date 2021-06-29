@@ -31,14 +31,14 @@ def getImagePixelRGB(image):
             image.putpixel((x, y), (nr, ng, nb))
             inner_list.append(colour_key_f)
         code_list.append(inner_list)
-    print(len(code_list))
+        print(inner_list)
 
 
 def find_nearest_dist(r, g, b, colours=colours, colour_key=colour_keywords):
     index = 0
-    dist = ((colours[0][0] - r) * 0.3) ** 2 + ((colours[0][1] - g) * 0.59) ** 2 + ((colours[0][2] - b) * 0.11) ** 2
+    dist = ((colours[0][0] - r) * 0.25) ** 2 + ((colours[0][1] - g) * 0.25) ** 2 + ((colours[0][2] - b) * 0.5) ** 2
     for i in range(1, len(colours)):
-        d = ((colours[i][0] - r) * 0.3) ** 2 + ((colours[i][1] - g) * 0.59) ** 2 + ((colours[i][2] - b) * 0.11) ** 2
+        d = ((colours[i][0] - r) * 0.25) ** 2 + ((colours[i][1] - g) * 0.25) ** 2 + ((colours[i][2] - b) * 0.5) ** 2
         if d < dist:
             dist = d
             index = i
@@ -47,5 +47,5 @@ def find_nearest_dist(r, g, b, colours=colours, colour_key=colour_keywords):
 
 if __name__ == "__main__":
     # image = Image.open('Screenshot (67).png')
-    image = Image.open('cutelongears.PNG')
-    toPixelArt(image, 105, 79)
+    image = Image.open('cutelongears3.png')
+    toPixelArt(image, 84,90)
