@@ -1,4 +1,5 @@
 # Color pallete from https://colorswall.com/palette/3847/
+# and https://lospec.com/palette-list/minecraft-concrete
 import numpy as np
 import pandas as pd
 
